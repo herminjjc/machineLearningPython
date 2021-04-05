@@ -14,7 +14,7 @@ class Endpoint(models.Model):
     '''
     name = models.CharField(max_length=128)
     owner = models.CharField(max_length=128)
-    create_at = models.DateTimeField(auto_now_add=True, blank=True)
+    created_at = models.DateTimeField(auto_now_add=True, blank=True)
 
 class MLAlgorithm(models.Model):
     '''
